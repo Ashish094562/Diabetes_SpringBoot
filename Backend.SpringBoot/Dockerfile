@@ -12,7 +12,7 @@ WORKDIR /app
 
 COPY --from=build /app/target/*.jar app.jar
 
-# Copy wait-for-postgres script
+
 COPY wait-for-postgres.sh .
 RUN chmod +x wait-for-postgres.sh
 
