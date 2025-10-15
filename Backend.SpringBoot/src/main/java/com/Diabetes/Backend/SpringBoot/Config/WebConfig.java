@@ -19,7 +19,7 @@ public class WebConfig {
         // ✅ Add both local and deployed frontend URLs
         config.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "https://your-frontend-name.vercel.app" // 🔁 Replace with your actual deployed frontend URL
+                "https://diabetes-web-lime.vercel.app/" // 🔁 Replace with your actual deployed frontend URL
         ));
 
         // ✅ Allow all necessary headers and methods
